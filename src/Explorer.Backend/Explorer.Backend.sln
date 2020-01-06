@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.Backend", "Explorer.Backend.csproj", "{B4F49985-EBE3-4D23-9049-FF5408AD1879}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.Backend.Services", "Explorer.Backend.Services\Explorer.Backend.Services.csproj", "{2B9F34D3-F32E-414E-8DFC-44B5FA95CF5E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Explorer.Backend", "Explorer.Backend\Explorer.Backend.csproj", "{D700B794-E607-4A72-B3DE-1E08EB5C19A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +10,13 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{B4F49985-EBE3-4D23-9049-FF5408AD1879}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B4F49985-EBE3-4D23-9049-FF5408AD1879}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B4F49985-EBE3-4D23-9049-FF5408AD1879}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B4F49985-EBE3-4D23-9049-FF5408AD1879}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B9F34D3-F32E-414E-8DFC-44B5FA95CF5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B9F34D3-F32E-414E-8DFC-44B5FA95CF5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B9F34D3-F32E-414E-8DFC-44B5FA95CF5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B9F34D3-F32E-414E-8DFC-44B5FA95CF5E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D700B794-E607-4A72-B3DE-1E08EB5C19A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D700B794-E607-4A72-B3DE-1E08EB5C19A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D700B794-E607-4A72-B3DE-1E08EB5C19A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D700B794-E607-4A72-B3DE-1E08EB5C19A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
