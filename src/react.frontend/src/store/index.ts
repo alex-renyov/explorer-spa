@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.css';
+
 import * as WeatherForecasts from './WeatherForecasts';
 import * as Counter from './Counter';
 
@@ -14,9 +16,3 @@ export const reducers = {
     counter: Counter.reducer,
     weatherForecasts: WeatherForecasts.reducer
 };
-
-// This type can be used as a hint on action creators so that its 'dispatch' and 'getState' params are
-// correctly typed to match your store.
-export interface AppThunkAction<TAction> {
-    (dispatch: (action: TAction) => void, getState: () => ApplicationState): void;
-}
