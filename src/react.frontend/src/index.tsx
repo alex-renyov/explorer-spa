@@ -5,6 +5,7 @@ import { ConnectedRouter } from 'connected-react-router';
 import { createBrowserHistory } from 'history';
 import configureStore from './store/configureStore';
 
+import 'bootstrap/dist/css/bootstrap.css';
 import './index.css';
 import App from './App';
 
